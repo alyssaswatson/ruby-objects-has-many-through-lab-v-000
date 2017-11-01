@@ -13,10 +13,10 @@ class Appointment
   end
 
   def patient
-
+    @patient
   end
 
   def doctor
-
+    @patient.collect{|appointment| appointment.doctor}
   end
 end
