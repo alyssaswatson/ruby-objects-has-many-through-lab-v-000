@@ -7,6 +7,8 @@ class Genre
     @songs = []
   end
 
-#def add 
+  def add
+
+  end
 
 end
