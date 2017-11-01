@@ -16,10 +16,10 @@ class Doctor
     @appointments
   end
 
-  def patients
-    self.appointments.collect do |appointment|
-      appointment.patient
-    end
-  end
+  #def patients
+    #self.appointments.collect do |appointment|
+      #appointment.patient
+    #end
+  #end
 
 end
