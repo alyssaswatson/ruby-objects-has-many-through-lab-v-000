@@ -5,6 +5,11 @@ class Appointment
   def initialize(date, doctor)
     @doctor = doctor
     @date = date
+    @appointments = []
+  end
+
+  def add_appointment(appointment)
+    @appointments << appointment
   end
 
   def patient
@@ -14,5 +19,4 @@ class Appointment
   def doctor
 
   end
-
 end
